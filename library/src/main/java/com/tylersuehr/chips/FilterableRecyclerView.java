@@ -80,7 +80,7 @@ class FilterableRecyclerView extends RecyclerView implements ChipComponent {
     /**
      * Uses alpha animation to fade in the current view if it's not visible.
      */
-    void fadeIn() {
+   public void fadeIn() {
         if (getVisibility() == VISIBLE) { return; }
 
         // Get visible window (keyboard shown)
